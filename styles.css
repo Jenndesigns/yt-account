@@ -1,1 +1,242 @@
+:root {
+  --font-family-inter: 'Inter', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+  --text-rgb-0-116-181: rgba(0, 116, 181, 1);
+}
 
+/* Utility Classes */
+.text-black {
+  color: var(--text-black);
+}
+
+.text-rgb-0-116-181 {
+  color: var(--text-rgb-0-116-181);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-family-inter);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main Container */
+.library-history-1 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: #fff;
+}
+
+@media (max-width: 1440px) {
+  .library-history-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .library-history-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Rectangle Styles */
+.rectangle-13-2 {
+  background-color: rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
+}
+
+.rectangle-45-8,
+.rectangle-47-9 {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.rectangle-94-12 {
+  background-color: rgba(217, 217, 217, 1);
+  opacity: 0.55;
+}
+
+.rectangle-88-13 {
+  background-color: rgba(245, 241, 241, 1);
+}
+
+.rectangle-99-14,
+.rectangle-103-15,
+.rectangle-102-18,
+.rectangle-104-19 {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Polygon & Vector Styles */
+.polygon-17-16,
+.polygon-19-17,
+.polygon-18-21,
+.polygon-20-22,
+.vector-7,
+.vector-43,
+.vector-49,
+.vector-61,
+.vector-63,
+.rectangle-33,
+.combined-shape-32,
+.wifi-34,
+.mobile-signal-35,
+.9-41-37 {
+  fill: rgba(0, 0, 0, 1);
+  border: none;
+  outline: none;
+}
+
+.vector-48 {
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  border: none;
+  outline: none;
+}
+
+/* Ellipse Styles */
+.ellipse-2-5 {
+  fill: rgba(217, 217, 217, 1);
+  border: none;
+  outline: none;
+}
+
+.ellipse-51-56,
+.ellipse-53-59 {
+  fill: rgba(199, 190, 190, 1);
+  border: none;
+  outline: none;
+}
+
+/* Text Styles */
+.text-3 {
+  font-family: var(--font-family-inter);
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-10,
+.text-11 {
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-20,
+.text-23 {
+  font-family: var(--font-family-inter);
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-25,
+.text-27 {
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-0-116-181);
+}
+
+.text-44,
+.text-50,
+.text-52,
+.text-54,
+.text-57 {
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+/* Flex Containers */
+.video-tab-4,
+.node-6,
+.battery-30,
+.top-nav-bar-28,
+.frame-10-24,
+.frame-11-26,
+.group-6-41,
+.group-7-45,
+.group-8-51,
+.group-9-53,
+.group-5-58,
+.component-27-39,
+.subscription-62,
+.component-34-38,
+.home-42,
+.shorts-46,
+.you-55,
+.group-47,
+.ic-outline-plus-60 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+/* Frame Styles */
+.frame-10-24,
+.frame-11-26 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Battery & Signal */
+.rectangle-31 {
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 2.67px;
+  opacity: 0.35;
+  border: none;
+  outline: none;
+}
+
+.combined-shape-32 {
+  opacity: 0.4;
+}
+
+/* Time Styles */
+.time-36 {
+  border-radius: 32px;
+}
+
+/* Miscellaneous */
+.rectangle-134-29 {
+  border: none;
+  outline: none;
+}
+
+.rectangle-135-40 {
+  background-color: rgba(217, 217, 217, 1);
+}
